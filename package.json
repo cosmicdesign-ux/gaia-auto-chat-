@@ -1,0 +1,39 @@
+{
+  "name": "gaia-ai-training-bot",
+  "version": "1.0.0",
+  "description": "Automated chatbot for training GaiaAi nodes",
+  "main": "gaia-trainer.js",
+  "bin": {
+    "gaia-trainer": "./gaia-trainer.js"
+  },
+  "scripts": {
+    "start": "node gaia-trainer.js",
+    "train": "node gaia-trainer.js",
+    "help": "node gaia-trainer.js --help"
+  },
+  "keywords": [
+    "gaia",
+    "ai",
+    "training",
+    "chatbot",
+    "automation",
+    "websocket"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "arm64",
+    "x64"
+  ]
+}
